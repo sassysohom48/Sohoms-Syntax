@@ -1,55 +1,41 @@
 import { motion } from "framer-motion";
 
 import ParticlesContainer from "../components/ParticlesContainer";
-import ProjectsBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
+import CodeEditor from "../components/CodeEditor";
 
 import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
+      {/* full screen gradient background */}
+      <div className="w-full h-full absolute inset-0 bg-gradient-to-r from-primary/10 via-black/30 to-black/10 z-0" />
+      
       {/* text */}
-      <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
+      <div className="absolute top-[160px] xl:top-0 left-0 w-full h-[calc(100vh-160px)] xl:h-full overflow-y-auto scrollbar-none xl:scrollbar xl:scrollbar-thin xl:scrollbar-thumb-accent xl:scrollbar-track-white/10 z-30">
+        <div className="text-center flex flex-col justify-start xl:justify-center xl:text-left min-h-full h-auto container mx-auto pt-8 xl:pt-32 pb-40 xl:pb-32">
           {/* title */}
-          <motion.h1
+          <motion.h2
             variants={fadeIn("down", 0.2)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="text-3xl xl:text-4xl font-bold leading-tight mb-8"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
-          </motion.h1>
+            &ldquo;You only live once, but if you <br />{" "}
+            <span className="text-accent">do it right, once is enough&rdquo;</span>
+          </motion.h2>
 
-          {/* subtitle */}
-          <motion.p
-            variants={fadeIn("down", 0.3)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
-          >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
-          </motion.p>
-
-          {/* btn */}
-          <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
-          </div>
+          {/* Code Editor Mockup */}
           <motion.div
             variants={fadeIn("down", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex"
+            className="mb-8 xl:mb-0 w-full"
           >
-            <ProjectsBtn />
+            <CodeEditor />
           </motion.div>
         </div>
       </div>
@@ -72,7 +58,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="w-full h-full max-w-[650px] max-h-[600px] absolute -bottom-32 lg:bottom-0 lg:right-[10%] z-40 pointer-events-none"
         >
           <Avatar />
         </motion.div>

@@ -1,8 +1,8 @@
 {
-  "name": "modern-portfolio",
+  "name": "sohoms-syntax",
   "version": "1.0.1",
   "private": true,
-  "description": "Ethan Smith is a Full-Stack web developer with 10+ years of experience.",
+  "description": "Sohom Mallick is a Full-Stack web developer with 10+ years of experience.",
   "keywords": [
     "react",
     "next",
@@ -39,16 +39,17 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-tsparticles": "^2.9.3",
+    "react-type-animation": "^3.2.0",
     "swiper": "^9.4.0",
     "tailwind-scrollbar": "^3.0.4",
     "tsparticles": "^2.9.3"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "4.38.0",
     "autoprefixer": "^10.4.14",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "postcss": "^8.4.23",
-    "tailwindcss": "^3.3.2",
-    "@netlify/plugin-nextjs": "4.38.0"
+    "tailwindcss": "^3.3.2"
   }
 }

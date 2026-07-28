@@ -20,17 +20,18 @@ const Layout = ({ children }) => {
     >
       {/* metadata */}
       <Head>
-        <title>Ethan Smith | Portfolio</title>
+        <title>Sohom Mallick | Portfolio</title>
         <meta
           name="description"
-          content="Ethan Smith is a Full-stack web developer with 10+ years of experience."
+          content="Sohom Mallick is a Full-stack web developer with 10+ years of experience."
         />
         <meta
           name="keywords"
           content="react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Ethan Smith" />
+        <meta name="author" content="Sohom Mallick" />
         <meta name="theme-color" content="#f13024" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
       </Head>
 
       <TopLeftImg />
