@@ -1,4 +1,4 @@
-# Sohom Mallick - Personal Portfolio
+# Sohom's Syntax - Personal Portfolio
 
 A modern, highly interactive portfolio built with Next.js, Tailwind CSS, and Framer Motion. Features an immersive particle background, sleek glassmorphism UI components, and dynamic master-detail layouts.
 
