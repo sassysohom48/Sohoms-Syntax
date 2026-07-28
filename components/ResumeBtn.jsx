@@ -7,7 +7,7 @@ const ResumeBtn = () => {
   return (
     <div className="mx-auto xl:mx-0 scale-75 xl:scale-[0.80] transform origin-center xl:origin-left">
       <a
-        href="https://drive.google.com/file/d/1goDqb8918GktHrkuPLH2tD-UG6xxzw8l/view?usp=sharing"
+        href="https://drive.google.com/file/d/1KkT3eSv3WnDgBpHKiWQMH7OaUb0bY_8q/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
