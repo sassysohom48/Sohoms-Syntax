@@ -4,6 +4,8 @@ import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import Transition from "../components/Transition";
 
+import "swiper/css";
+import "swiper/css/pagination";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
