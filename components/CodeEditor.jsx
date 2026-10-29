@@ -68,7 +68,7 @@ const CodeEditor = () => {
           >
             <FaPlay className="text-xs" /> Run Profile
           </button>
-          <a href="https://drive.google.com/file/d/1JPPsJwo6nZO2DGX9srjaK1nlXNJUNAvQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-5 py-2 rounded border border-[#c678dd]/70 text-[#c678dd] hover:bg-[#c678dd]/10 transition-all font-sans text-sm cursor-pointer">
+          <a href="https://drive.google.com/file/d/1JIQfpP7GF3uf9OVri9eR9COVGuLknbEm/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-x-2 px-5 py-2 rounded border border-[#c678dd]/70 text-[#c678dd] hover:bg-[#c678dd]/10 transition-all font-sans text-sm cursor-pointer">
             <FaRegFolder className="text-xs" /> View Resume
           </a>
         </div>
