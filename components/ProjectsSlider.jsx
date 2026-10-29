@@ -22,6 +22,12 @@ export const projectData = [
   },
   {
     Icon: RxDesktop,
+    title: "HeatGuard AI – GenAI Heatwave Prediction & Early Warning System",
+    techStack: "Python, Flask, Scikit-learn, Google Gemini, HistGradientBoosting, Pandas, XAI",
+    link: "https://github.com/sassysohom48/HeatGuard-AI",
+  },
+  {
+    Icon: RxDesktop,
     title: "JusticeRAG – Retrieval-Augmented Legal Precedent Discovery",
     techStack: "FastAPI, Next.js, Qdrant, BM25, bge-embeddings, Reciprocal Rank Fusion, Google Gemini",
     link: "https://github.com/sassysohom48/JusticeRAG",
@@ -31,12 +37,6 @@ export const projectData = [
     title: "BoviFace – AI-Based Cattle & Buffalo Breed Recognition",
     techStack: "YOLOv5, Flask, React Native, PyTorch, Supabase, OpenCV, Computer Vision",
     link: "https://github.com/sassysohom48/BoviFace",
-  },
-  {
-    Icon: RxDesktop,
-    title: "PM2.5 Ground-Level Detection using UNet",
-    techStack: "UNet, Python, Streamlit, XGBoost, ANN, OpenAQ API, ERA5 Climate Data",
-    link: "https://github.com/r9jdp/PM2.5-Unet",
   },
   {
     Icon: RxDesktop,
